@@ -1,0 +1,181 @@
+<!--
+    Nome: Antonio Pedro Lima Vicente da Silva
+    Matrícula: 202008338298
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Site Para Deficientes Visuais</title>
+</head>
+
+<body>
+    <header>
+        <div class="inner-width">
+            <a href="#" class="logo" title="logo, Uma pilha de livros"> <img src="./image/logo.png" alt=""> </a>
+            <i class="menu-toggle-btn fas fa-bars"></i>
+            <nav class="navigation-menu">
+                <a href="#container_inicio"> <i class="fas fa-home home"></i> Início</a>
+                <a href="#container_sobre"> <i class="fas fa-align-left about"></i> Sobre</a>
+                <a href="#container_servico"> <i class="fab fa-buffer works"></i> Leituras</a>
+                <a href="#equipe"> <i class="fas fa-users team"></i> Equipe</a>
+                <a href="#contato"> <i class="fas fa-headset contact"></i> contato</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner" id="container_inicio" title="Banner. Imagem com uma filheira cheio de livros">
+        <div class="container">
+
+            <h1><span>history</span></h1>
+
+            <p> É chamado de história o conhecimento que estuda as ocorrências do passado.
+
+                Os historiadores definem essa ciência de alguns modos distintos. Há uma linha de pensamento que acredita
+                que a história estuda, na realidade, a ação dos seres humanos através do tempo, investigando seus
+                comportamentos e suas consequências.</p>
+            <a class="btn-a" href="#contato" title="botão para ir na parte de contatos."> Contate-Nos</a>
+
+        </div>
+    </div>
+    <div class="body-about" title="plano de fundo da parte Sobre">
+        <div class="section-about" id="container_sobre">
+            <div class="inner-container-about" title=" parte do Sobre">
+                <h1>Sobre Nós</h1>
+                <p class="text-about">
+                    Somos um site voltados a leitura e história ao público, sobretudo as pessoas com deficiência visual.
+                </p>
+                <div class="skills-about">
+                    <span>Leitura Online</span>
+                    <span>História</span>
+                    <span>Contos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-servico" id="container_servico" title="parte dos serviços">
+        <div class="servico-tabela">
+            <h1>Leituras</h1>
+            <table>
+                <tr>
+                    <td><a href="https://brasilescola.uol.com.br/historiag/guerra-fria.htm" target="_blank">Guerra
+                            Fria</a></td>
+                    <td><a href="https://brasilescola.uol.com.br/historiag/segunda-guerra-mundial.htm"
+                            target="_blank">Segunda Guerra Mundial</a></td>
+                    <td><a href="https://brasilescola.uol.com.br/historiag/primeira-guerra.htm" target="_blank">Primeira
+                            Guerra Mundial</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://brasilescola.uol.com.br/historiab/era-vargas.htm" target="_blank">Era
+                            Vargas</a></td>
+                    <td><a href="https://brasilescola.uol.com.br/historiab/primeira-republica.htm"
+                            target="_blank">Primeira República</a></td>
+                    <td><a href="https://brasilescola.uol.com.br/historiab/ditadura-militar.htm">Regime Militar no
+                            Brasil</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://brasilescola.uol.com.br/historiag/grecia-antiga.htm" target="_blank">Grécia
+                            Antiga</a></td>
+                    <td><a href="https://brasilescola.uol.com.br/historiag/imperio-romano.htm" target="_blank">Império
+                            Romano</a></td>
+                    <td><a href="https://brasilescola.uol.com.br/historiag/egipcio.htm" target="_blank">Egito Antigo</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="equipes" id="equipe">
+        <div class="equipes-body">
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="pic">
+                        <img src="image/foto de perfil.jpeg" alt="">
+                    </div>
+                    <div class="name">Antonio Pedro</div>
+                    <div class="desc">Desenvolvedor e Designer</div>
+                    <div class="sm">
+                        <a href="https://www.facebook.com/antonioplvs" class="fab fa-facebook" target="_blank"></a>
+                        <a href="https://twitter.com/AntonioPedroLi6?s=09" class="fab fa-twitter" target="_blank"></a>
+                        <a href="https://www.instagram.com/anttoniiopeddro/?hl=pt-br" class="fab fa-instagram"
+                            target="_blank"></a>
+                        <a href="https://github.com/antped" class="fab fa-github" target="_blank"></a>
+                    </div>
+                    <a href="#contato" class="contact-btn">Contate-Me</a>
+                </div>
+                <div class="card-footer">
+                    <P>Me chamo Antonio Pedro e amo trabalhar com Front-end. Tenho uma grande paixão por essa área, ela
+                        é linda
+                        e bem admirável. Sou uma pessoa nova em busca de mais aperfeiçoamento. </P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contato-body" id="contato">
+        <div class="contato">
+            <form action="agradecimentos.html">
+                <h2>Contate-Nos</h2>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="NOME" required="required" onclick="formulario()">
+                            <span class="text">Primeiro Nome</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="SOBRENOME" required="required" onclick="formulario()">
+                            <span class="text">Sobrenome</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="EMAIL" required="required" onclick="formulario()">
+                            <span class="text">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="FONE" required="required" onclick="formulario()">
+                            <span class="text">Telefone</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea name="MENSAGEM" required="required" onclick="formulario()"></textarea>
+                            <span class="text">Digite sua mensagem aqui...</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <input class="botao" type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/javascript.js"></script>
+
+
+</body>
+
+</html>
